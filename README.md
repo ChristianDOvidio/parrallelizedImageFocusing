@@ -15,19 +15,19 @@ sudo apt-get install mesa-common-dev
 ```
 IN_PATH
 ``` 
-- input location of image stack
+input location of image stack
 ```
 OUT_PATH
 ``` 
-- input location of output image
+input location of output image
 ```
 desiredColumns
 ``` 
-- input desired number of columns for image to be split into
+input desired number of columns for image to be split into
 ```
 desiredRows
 ``` 
-- input desired number of rows for image to be split into
+input desired number of rows for image to be split into
 
 # 3 Build and run application:
 
