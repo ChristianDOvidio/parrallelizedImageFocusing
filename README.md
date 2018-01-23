@@ -27,14 +27,8 @@ sudo apt-get install mesa-common-dev
 
 # Version Breakdown:
 
-# Version 1 - Multithreaded with no synchronization:
+Version 1 - Multithreaded with no synchronization: Divides image into rectangular regions and assigns a thread to each region. Each thread then executes an HDR algorithm.
 
-Divides image into rectangular regions and assigns a thread to each region. Each thread then executes an HDR algorithm.
+Version 2 - Multithreaded with a single lock: Uses random sampling to compute an in-focus image. A single mutex lock guarentees synchorization.
 
-# Version 2 - Multithreaded with a single lock:
-
-Uses random sampling to compute an in-focus image. A single mutex lock guarentees synchorization.
-
-# Version 3 - Multithreaded with multiple locks:
-
-Assigns one mutex lock to each rectangular region. Avoids deadlock by implementing lock heirarchy.
+Version 3 - Multithreaded with multiple locks: Assigns one mutex lock to each rectangular region. Avoids deadlock by implementing lock heirarchy.
