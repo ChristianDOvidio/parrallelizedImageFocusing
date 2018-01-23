@@ -6,18 +6,24 @@ Final project for Operating Systems class which takes a stack of images at diffe
 # 1 Install MESA and FreeGlut:
 
 ```sudo apt-get install freeglut3-dev
-sudo apt-get install mesa-common-dev```
+sudo apt-get install mesa-common-dev
+```
 
 # 2 Input desired parameters: (hardcoded variables requested by grader)
 
-```IN_PATH``` - input location of image stack
-```OUT_PATH``` - input location of output image
-```desiredColumns``` - input desired number of columns for image to be split into
-```desiredRows``` - input desired number of rows for image to be split into
+```IN_PATH
+``` - input location of image stack
+```OUT_PATH
+``` - input location of output image
+```desiredColumns
+``` - input desired number of columns for image to be split into
+```desiredRows
+``` - input desired number of rows for image to be split into
 
 # 3 Build and run application:
 
-```gcc -Wall mainv1.c gl_frontEnd.c fileIO_TGA.c -lm -lGL -lglut -o focus```
+```gcc -Wall mainv1.c gl_frontEnd.c fileIO_TGA.c -lm -lGL -lglut -o focus
+```
 
 # Version Breakdown:
 
