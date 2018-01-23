@@ -12,13 +12,17 @@ sudo apt-get install mesa-common-dev
 
 # 2 Input desired parameters: (hardcoded variables requested by grader)
 
-```IN_PATH
+```
+IN_PATH
 ``` - input location of image stack
-```OUT_PATH
+```
+OUT_PATH
 ``` - input location of output image
-```desiredColumns
+```
+desiredColumns
 ``` - input desired number of columns for image to be split into
-```desiredRows
+```
+desiredRows
 ``` - input desired number of rows for image to be split into
 
 # 3 Build and run application:
