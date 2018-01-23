@@ -5,7 +5,8 @@ Final project for Operating Systems class which takes a stack of images at diffe
 
 # 1 Install MESA and FreeGlut:
 
-```sudo apt-get install freeglut3-dev
+```
+sudo apt-get install freeglut3-dev
 sudo apt-get install mesa-common-dev
 ```
 
